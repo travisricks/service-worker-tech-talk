@@ -2,3 +2,4 @@ slide-deck.html
 push-notification-demo/node_modules
 *.env
 push-notification-demo/.DS_Store
+.DS_Store
