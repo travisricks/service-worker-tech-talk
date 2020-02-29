@@ -1,9 +1,10 @@
 _This was created during my time as a student at <a href="https://www.codechrysalis.io" target="_blank">Code Chrysalis</a>._
 
 # An Introduction to Service Workers
+
 This repo contains demo code for a **push notifications** service worker and an **offline landing page** service worker.
 
-- [See the Slide deck](https://docs.google.com/presentation/d/e/2PACX-1vTkoGA6wg4KE6G0Aol0hbCZE5x5CSxoF8XMEbqNg5-gYH-sfFhVOfFXBK2Zr4zRcjs6JcKiWQNu1-IN/pub?start=false&loop=false&delayms=3000)
+- [See the Slide deck](slide-deck.pdf)
 - [See a push notification demo](https://sw-push.herokuapp.com/)
 
 ---
