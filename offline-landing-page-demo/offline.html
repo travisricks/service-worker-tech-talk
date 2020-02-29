@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <title>Offline Demo</title>
+
+    <style>
+      .cover-heading {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+          "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        color: #fff;
+        text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
+        text-align: center !important;
+        box-sizing: border-box;
+        margin-top: 0;
+        margin-bottom: 0.5rem;
+        font-weight: 500;
+        line-height: 1.2;
+        font-size: 2.5rem;
+        /* flex: 100%; */
+      }
+      .lead {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+          "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        line-height: 1.5;
+        color: #fff;
+        text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
+        text-align: center !important;
+        box-sizing: border-box;
+        margin-top: 0;
+        margin-bottom: 1rem;
+        font-size: 1.25rem;
+        font-weight: 300;
+        /* flex: 100%; */
+      }
+      .cover {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        height: 100vh;
+      }
+      .child {
+        align-self: center;
+      }
+    </style>
+  </head>
+  <body style="background-color: #3498db;">
+    <main class="cover">
+      <div class="child">
+        <p class="cover-heading">You're Offline :(</p>
+        <p class="lead">
+          The internet connection is lost, but you can still <br />give the user
+          information.
+        </p>
+      </div>
+    </main>
+    <script src="index.js"></script>
+    <script src="service-worker.js"></script>
+  </body>
+</html>
